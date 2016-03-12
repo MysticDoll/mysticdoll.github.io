@@ -1,6 +1,21 @@
-html {
-    font-size: 16px;
+@media screen and (min-width: 384px) {
+    html {
+        font-size: 45%;
+    }
 }
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    html {
+        font-size: 100%;
+    }
+}
+
 body {
     display: flex;
     margin: 0;
@@ -44,7 +59,7 @@ div {
     margin: 0;
     height: 100%;
     vertical-align: middle;
-    flex: 0 0 16.6666%;
+    flex: 0 0 20em;
     background-color: #EAEAEA;
 }
 
